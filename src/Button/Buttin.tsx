@@ -1,17 +1,15 @@
 import * as React from 'react';
-import { Component } from 'react';
 
-export interface ButtonProps {
-
+export interface IButtonProps {
+    type:string
 }
 
 
-class Button extends React.Component<ButtonProps> {
-    render() {
+class Button extends React.Component<IButtonProps> {
+    public render() {
         return (
             <button>
-                {props.children}
-                {2222}
+                {this.props.children}
             </button>
         );
     }
