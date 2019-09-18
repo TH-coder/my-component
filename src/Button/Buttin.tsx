@@ -1,4 +1,8 @@
+
+import classNames from 'classnames';
 import * as React from 'react';
+
+classNames('foo', 'bar'); // => 'foo bar'
 
 export interface IButtonProps {
     type:string
