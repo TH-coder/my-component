@@ -1,0 +1,10 @@
+button.primary{
+    background: blue;
+    color: white;
+}
+
+button.large{
+    line-height: 30px;
+    font-size: 18px;
+}
+
