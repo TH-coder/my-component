@@ -8,3 +8,7 @@ button.large{
     font-size: 18px;
 }
 
+button.danger{
+    background: red;
+    color: white;
+}

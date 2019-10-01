@@ -7,6 +7,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Button type="primary" size = "large">I am button</Button>
+        <Button type="danger" size = "large">I am button</Button>
       </div>
     );
   }
