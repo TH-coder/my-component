@@ -8,6 +8,11 @@ button.large{
     font-size: 18px;
 }
 
+button.small{
+    line-height: 18px;
+    font-size: 12px;
+}
+
 button.danger{
     background: red;
     color: white;
