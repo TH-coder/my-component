@@ -12,7 +12,7 @@ export interface IButtonProps {
 class Button extends React.Component<IButtonProps> {
     public render() {
         const {children,type,size} = this.props
-        const classname = classNames(type,size)
+        const classname = classNames(type,size||"medium")
         return (
             <button className = {classname}>
                 {children}
