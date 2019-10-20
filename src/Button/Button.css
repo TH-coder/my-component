@@ -3,6 +3,12 @@ button.primary{
     color: white;
 }
 
+button.medium{
+    background: blue;
+    color: white;
+}
+
+
 button.large{
     line-height: 30px;
     font-size: 18px;
