@@ -1,13 +1,17 @@
 import * as React from 'react';
 import './App.css';
-import Button from './Button/Buttin'
+import Button from './Component/Button/Button'
+import Icon from './Component/Icon/Icon';
 
 class App extends React.Component {
+  public click = (event: React.MouseEvent<HTMLSpanElement, MouseEvent>) => {
+    alert("yoyoyo");
+  }
   public render() {
     return (
       <div className="App">
-        <Button type="primary" size = "large" disabled={true}>I am button</Button>
-        <Button type="danger" size = "small">I am button</Button>
+        <Icon type="good" style={{ color: "red" }} onClick={this.click} />
+        <Button icon="good" size="small"/>
       </div>
     );
   }
