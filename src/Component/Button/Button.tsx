@@ -2,7 +2,8 @@
 import classNames from 'classnames';
 import * as React from 'react';
 import Icon from "../Icon/Icon"
-import './Button.css'
+import './Button.less'
+// import styles from './Button.module.less';
 
 export interface IButtonProps {
     size?: string,
